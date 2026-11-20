@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101010">
+  <meta name="description" content="VANTA® — calzado urbano diseñado para moverse. Descubrí sneakers, running y lifestyle en una nueva dirección.">
+  <title>VANTA® — Designed to move</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="js/products.js" defer></script>
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Ir al contenido</a>
+  <div class="announcement">ENVÍO GRATIS EN COMPRAS MAYORES A <span>$180.000</span><span class="announcement__separator">—</span> 3 CUOTAS SIN INTERÉS</div>
+
+  <header class="site-header" id="top">
+    <a class="wordmark" href="#top" aria-label="VANTA, inicio">VANTA<span>®</span></a>
+    <nav class="desktop-nav" aria-label="Navegación principal">
+      <a href="#top">Inicio</a>
+      <a href="#shop">Zapatillas</a>
+      <a href="#story">Colecciones</a>
+      <a href="#story">Nosotros</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-button search-toggle" type="button" aria-label="Abrir búsqueda" title="Buscar">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"></circle><path d="m16 16 4.5 4.5"></path></svg>
+      </button>
+      <button class="icon-button account-button" type="button" aria-label="Mi cuenta" title="Mi cuenta">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="3.3"></circle><path d="M5.2 20c.5-3.6 3.1-5.7 6.8-5.7s6.3 2.1 6.8 5.7"></path></svg>
+      </button>
+      <button class="icon-button cart-trigger" type="button" aria-label="Abrir carrito">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 4.5h2l2.1 10.1a2 2 0 0 0 2 1.6h7.8a2 2 0 0 0 1.9-1.5l1.3-6.2H6.2"></path><circle cx="10" cy="19.5" r="1"></circle><circle cx="17.2" cy="19.5" r="1"></circle></svg>
+        <span class="cart-count" aria-live="polite">0</span>
+      </button>
+      <button class="icon-button menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </div>
+    <form class="search-panel" role="search">
+      <label class="sr-only" for="header-search">Buscar productos</label>
+      <input id="header-search" type="search" placeholder="¿Qué estás buscando?" autocomplete="off">
+      <button type="submit" aria-label="Buscar"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"></circle><path d="m16 16 4.5 4.5"></path></svg></button>
+    </form>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <img class="hero__image" src="https://images.unsplash.com/photo-1552346154-21d32810aba3?auto=format&amp;fit=crop&amp;w=2200&amp;q=88" alt="Zapatilla urbana VANTA sobre un fondo oscuro" fetchpriority="high">
+      <div class="hero__shade"></div>
+      <div class="hero__index">Nº 01 <span>—</span> MOVEMENT STUDIES</div>
+      <div class="hero__vertical">BUENOS AIRES · 34°36' S</div>
+      <div class="hero__content">
+        <p class="eyebrow"><span class="eyebrow__dot"></span> URBAN FOOTWEAR / EST. MMXX</p>
+        <h1 id="hero-title">MOVE<br><span>BEYOND</span><br>LIMITS<span class="hero__period">.</span></h1>
+        <div class="hero__bottom">
+          <p>No seguimos tendencias.<br><strong>Creamos movimiento.</strong></p>
+          <a class="button button--accent" href="#shop">EXPLORAR COLECCIÓN <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="hero__product-note"><span>01 / 04</span><span>VANTA AIR 01 — SIGNAL RED</span></div>
+      <a class="scroll-cue" href="#manifesto"><span>SCROLL TO MOVE</span><i></i></a>
+      <div class="hero__crosshair" aria-hidden="true">+</div>
+    </section>
+
+    <section class="manifesto" id="manifesto" aria-label="Manifiesto VANTA">
+      <div class="marquee-track">
+        <div class="marquee-group" aria-hidden="true">
+          <span>BUILT FOR MOVEMENT <i>✳</i></span><span>URBAN CULTURE <i>✳</i></span><span>EVERY STEP MATTERS <i>✳</i></span><span>DESIGNED TO STAND OUT <i>✳</i></span>
+        </div>
+        <div class="marquee-group" aria-hidden="true">
+          <span>BUILT FOR MOVEMENT <i>✳</i></span><span>URBAN CULTURE <i>✳</i></span><span>EVERY STEP MATTERS <i>✳</i></span><span>DESIGNED TO STAND OUT <i>✳</i></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="shop section-pad" id="shop" aria-labelledby="shop-title">
+      <div class="section-topline reveal"><span>01 — NEW SEASON / 2026</span><span>BUENOS AIRES, ARGENTINA</span></div>
+      <div class="shop-heading reveal">
+        <div><p class="eyebrow eyebrow--dark">THE ROTATION / 001</p><h2 id="shop-title">FIND YOUR<br><span>NEXT MOVE.</span></h2></div>
+        <p class="shop-heading__note">Diseñadas para cada ritmo.<br>Encontrá tu próximo par.</p>
+      </div>
+      <div class="shop-toolbar reveal">
+        <div class="filter-list" role="group" aria-label="Filtrar por categoría">
+          <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">Todos <span>00</span></button>
+          <button class="filter-button" type="button" data-filter="Urbanas" aria-pressed="false">Urbanas</button>
+          <button class="filter-button" type="button" data-filter="Running" aria-pressed="false">Running</button>
+          <button class="filter-button" type="button" data-filter="Lifestyle" aria-pressed="false">Lifestyle</button>
+          <button class="filter-button" type="button" data-filter="Training" aria-pressed="false">Training</button>
+        </div>
+        <div class="shop-toolbar__right">
+          <label for="sort-products" class="sr-only">Ordenar productos</label>
+          <select id="sort-products" class="sort-select">
+            <option value="featured">Ordenar: destacados</option>
+            <option value="price-asc">Precio: menor a mayor</option>
+            <option value="price-desc">Precio: mayor a menor</option>
+            <option value="newest">Novedades</option>
+          </select>
+          <span class="results-count" aria-live="polite"></span>
+        </div>
+      </div>
+      <div class="product-grid" id="product-grid" aria-live="polite"></div>
+      <div class="shop-bottomline"><span>HECHAS PARA IR MÁS ALLÁ.</span><a href="#shop">VANTA® / 2026</a></div>
+    </section>
+
+    <section class="story" id="story" aria-labelledby="story-title">
+      <div class="story__image-wrap">
+        <img src="https://images.unsplash.com/photo-1523398002811-999ca8dec234?auto=format&amp;fit=crop&amp;w=1500&amp;q=85" alt="Estilo urbano en movimiento por las calles de la ciudad" loading="lazy">
+        <span class="story__image-caption">A CITY THAT NEVER STANDS STILL / BA, 2026</span>
+      </div>
+      <div class="story__content">
+        <p class="eyebrow"><span class="eyebrow__dot"></span> NOT JUST FOOTWEAR</p>
+        <h2 id="story-title">MORE<br>THAN JUST<br><span>SHOES.</span></h2>
+        <p class="story__copy">El movimiento es parte de nuestra identidad. Diseñamos para quienes buscan comodidad, personalidad y libertad en cada paso.</p>
+        <a class="text-link" href="#benefits">CONOCÉ VANTA <span aria-hidden="true">↗</span></a>
+        <span class="story__mark" aria-hidden="true">V®</span>
+        <span class="story__number">02 / OUR POINT OF VIEW</span>
+      </div>
+    </section>
+
+    <section class="benefits section-pad" id="benefits" aria-label="Beneficios">
+      <div class="benefits__intro reveal"><span class="eyebrow eyebrow--dark">MADE FOR YOUR EVERYDAY</span><p>BUEN DISEÑO.<br><span>CERO COMPLICACIONES.</span></p></div>
+      <div class="benefit-grid">
+        <article class="benefit-card reveal">
+          <span class="benefit-card__number">01</span>
+          <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M4 13h25v23H4zM29 21h8l7 8v7H29z"></path><circle cx="13" cy="38" r="4"></circle><circle cx="36" cy="38" r="4"></circle><path d="M33 25h5l4 5H33z"></path></svg>
+          <h3>ENVÍOS A TODO<br>EL PAÍS.</h3><p>Tu próximo paso llega a cualquier rincón de Argentina.</p>
+        </article>
+        <article class="benefit-card reveal">
+          <span class="benefit-card__number">02</span>
+          <svg viewBox="0 0 48 48" aria-hidden="true"><rect x="7" y="12" width="34" height="25" rx="2"></rect><path d="M7 20h34M14 30h10"></path></svg>
+          <h3>COMPRÁ DE<br>FORMA SEGURA.</h3><p>Pagá tranquilo con tus medios de pago favoritos.</p>
+        </article>
+        <article class="benefit-card reveal">
+          <span class="benefit-card__number">03</span>
+          <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M39 17V7l-4 4A17 17 0 0 0 7 19M9 31v10l4-4a17 17 0 0 0 28-8"></path><path d="M7 19h10M31 29h10"></path></svg>
+          <h3>CAMBIOS SIN<br>VUELTAS.</h3><p>Tenés 30 días para encontrar el calce perfecto.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="newsletter" aria-labelledby="newsletter-title">
+      <div class="newsletter__left"><p class="eyebrow"><span class="eyebrow__dot"></span> THE VANTA FREQUENCY</p><h2 id="newsletter-title">STAY IN<br><span>MOTION.</span></h2></div>
+      <div class="newsletter__right">
+        <p>Enterate de nuestros lanzamientos<br>y novedades. Sin ruido, solo lo importante.</p>
+        <form class="newsletter-form" novalidate>
+          <label for="newsletter-email" class="sr-only">Tu email</label>
+          <input id="newsletter-email" type="email" placeholder="TU EMAIL" autocomplete="email" required>
+          <button type="submit" aria-label="Suscribirme">↗</button>
+        </form>
+        <p class="newsletter-feedback" aria-live="polite">Al suscribirte aceptás recibir novedades de VANTA®. Sin integración externa.</p>
+      </div>
+      <span class="newsletter__asterisk" aria-hidden="true">✳</span>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-main">
+      <div class="footer-brand"><a class="wordmark wordmark--footer" href="#top">VANTA<span>®</span></a><p>Urban footwear.<br>Designed to move.</p><span class="footer-location">BUENOS AIRES, AR<br>34°36' S / 58°22' W</span></div>
+      <div class="footer-column"><h2>EXPLORÁ</h2><a href="#top">Inicio</a><a href="#shop">Zapatillas</a><a href="#story">Colecciones</a><a href="#story">Nosotros</a></div>
+      <div class="footer-column"><h2>AYUDA</h2><a href="#benefits">Envíos</a><a href="#benefits">Cambios y devoluciones</a><a href="#benefits">Medios de pago</a><a href="mailto:hola@vanta.example">Contacto</a></div>
+      <div class="footer-column footer-social"><h2>SEGUINOS</h2><a href="https://instagram.com" target="_blank" rel="noreferrer">Instagram ↗</a><a href="https://pinterest.com" target="_blank" rel="noreferrer">Pinterest ↗</a><span>HOLA@VANTA.EXAMPLE</span></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 VANTA® — TODOS LOS DERECHOS RESERVADOS.</span><div class="payment-markers" aria-label="Medios de pago ilustrativos"><span>VISA</span><span>mastercard</span><span>MP</span></div><a href="#top">VOLVER ARRIBA ↑</a></div>
+  </footer>
+
+  <div class="overlay" id="overlay" hidden></div>
+  <aside class="cart-drawer" id="cart-drawer" aria-labelledby="cart-title" aria-hidden="true">
+    <div class="drawer-header"><div><p class="eyebrow eyebrow--dark">YOUR SELECTION</p><h2 id="cart-title">TU CARRITO <span class="drawer-count">(0)</span></h2></div><button class="close-button close-cart" type="button" aria-label="Cerrar carrito">×</button></div>
+    <div class="cart-items"></div>
+    <div class="cart-empty"><span class="cart-empty__symbol">○</span><p>TU PRÓXIMO PASO<br>EMPIEZA ACÁ.</p><a class="button button--dark" href="#shop">EXPLORAR ZAPATILLAS <span>↗</span></a></div>
+    <div class="cart-footer">
+      <div class="cart-subtotal"><span>SUBTOTAL</span><strong>$0</strong></div>
+      <p>Envío e impuestos calculados al coordinar el pedido.</p>
+      <a class="button button--accent whatsapp-checkout" href="#" target="_blank" rel="noreferrer">FINALIZAR PEDIDO POR WHATSAPP <span>↗</span></a>
+      <button class="continue-shopping" type="button">SEGUIR EXPLORANDO</button>
+      <small>Demo sin cobros. Reemplazá el WhatsApp placeholder 5491100000000 antes de publicar.</small>
+    </div>
+  </aside>
+
+  <section class="product-modal" id="product-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-hidden="true">
+    <button class="close-button close-modal" type="button" aria-label="Cerrar detalle">×</button>
+    <div class="modal-gallery"></div>
+    <div class="modal-details">
+      <p class="eyebrow eyebrow--dark modal-category"></p><h2 id="modal-title"></h2>
+      <p class="modal-price"></p><p class="modal-description"></p>
+      <div class="size-heading"><span>SELECCIONÁ TU TALLE</span><a href="#benefits">GUÍA DE TALLES ↗</a></div>
+      <div class="size-grid" role="group" aria-label="Talles disponibles"></div>
+      <p class="size-error" aria-live="polite"></p>
+      <div class="modal-actions"><label for="modal-quantity">CANTIDAD</label><div class="quantity-control"><button type="button" class="quantity-minus" aria-label="Disminuir cantidad">−</button><input id="modal-quantity" type="number" value="1" min="1" max="10"><button type="button" class="quantity-plus" aria-label="Aumentar cantidad">+</button></div></div>
+      <button class="button button--accent modal-add" type="button">AGREGAR AL CARRITO <span>↗</span></button>
+      <div class="modal-info"><p>↗ &nbsp; Envíos a todo el país</p><p>↺ &nbsp; Cambios dentro de los 30 días</p></div>
+    </div>
+  </section>
+  <div class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
